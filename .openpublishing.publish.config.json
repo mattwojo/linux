@@ -4,7 +4,7 @@
       "docset_name": "Linux",
       "build_source_folder": "Docs",
       "build_output_subfolder": "Linux",
-      "locale": "zh-cn",
+      "locale": "en-us",
       "monikers": [],
       "moniker_ranges": [],
       "open_to_public_contributors": false,
@@ -22,9 +22,18 @@
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
-      "url": "https://github.com/Microsoft/templates.docs.msft.zh-cn",
+      "url": "https://github.com/Microsoft/templates.docs.msft",
       "branch": "main",
       "branch_mapping": {}
+    },
+    {
+      "path_to_root": "_repo.en-us",
+      "url": "https://github.com/mattwojo/linux",
+      "branch": "live",
+      "branch_mapping": {
+        "live": "live",
+        "main": "main"
+      }
     }
   ],
   "branch_target_mapping": {}
